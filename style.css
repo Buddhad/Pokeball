@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background-color: red;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,10 @@ body {
 img {
   position: relative;
   top: -82px;
+}
+
+.box {
+  border-radius: 50% !important;
 }
 
 p {
@@ -20,9 +24,12 @@ p {
 }
 
 .child-to-body {
-  width: 300px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+    5px 5px 10px rgba(255, 255, 255, 0.1) inset !important;
 }
 
 .poke_box {
