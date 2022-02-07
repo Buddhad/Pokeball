@@ -97,7 +97,7 @@ p {
   background: #000;
 }
 
-.pokeball__button {
+.pokeball_button {
   position: absolute;
   top: calc(50% - 15px);
   left: calc(50% - 15px);
@@ -112,7 +112,7 @@ p {
   animation-play-state: paused;
 }
 
-.pokeball:hover .pokeball__button {
+.pokeball:hover .pokeball_button {
   animation-play-state: running;
 }
 
